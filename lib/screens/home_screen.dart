@@ -57,7 +57,7 @@ class HomeScreen extends StatelessWidget {
                     footer: GridTileBar(
                       backgroundColor: Colors.white,
                       leading: SizedBox(
-                        width: 70,
+                        width: 60,
                         child: Text(
                           allProducts![index].title!,
                           overflow: TextOverflow.ellipsis,
