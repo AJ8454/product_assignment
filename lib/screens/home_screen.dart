@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:product_assignment/bloc/cart_bloc/cart_bloc.dart';
 import 'package:product_assignment/bloc/product_bloc/product_bloc.dart';
 import 'package:product_assignment/models/product_model.dart';
-import 'package:product_assignment/repository/product_repository.dart';
 import 'package:product_assignment/screens/cart_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -58,7 +57,7 @@ class HomeScreen extends StatelessWidget {
                     footer: GridTileBar(
                       backgroundColor: Colors.white,
                       leading: SizedBox(
-                        width: 60,
+                        width: 70,
                         child: Text(
                           allProducts![index].title!,
                           overflow: TextOverflow.ellipsis,
